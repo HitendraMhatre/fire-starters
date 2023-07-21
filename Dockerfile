@@ -1,5 +1,5 @@
 # Stage 1: Build the Vitepress project
-FROM node:16 AS build
+FROM registry.redhat.io/ubi8/nodejs-16 AS build
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -19,7 +19,7 @@ ENV NODE_OPTIONS="--max-old-space-size=4096"
 RUN npm run docs:build
 
 # Stage 2: Use a lightweight Node.js image for the final container
-FROM node:16-alpine AS final
+FROM registry.redhat.io/ubi8/nodejs-16 AS final
 
 # Set the working directory inside the container
 WORKDIR /app
