@@ -1,0 +1,50 @@
+{
+    "resourceType": "Practitioner",
+    "id": "84c0b5d1-e169-4280-94cf-410f9befb33d",
+    "meta": {
+      "versionId": "5",
+      "lastUpdated": "2021-04-07T02:57:21.097-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "extension": [
+      {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 262
+      }
+    ],
+    "identifier": [
+      {
+        "system": "http://hl7.org/fhir/sid/us-npi",
+        "value": "93260"
+      }
+    ],
+    "active": true,
+    "name": [
+      {
+        "family": "O'Conner",
+        "given": [
+          "Gene"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      }
+    ],
+    "address": [
+      {
+        "line": [
+          "1399 WASHINGTON STREET"
+        ],
+        "city": "HANOVER",
+        "state": "MA",
+        "postalCode": "2339",
+        "country": "US"
+      }
+    ],
+    "gender": "male"
+  }

@@ -1,0 +1,36 @@
+{
+    "resourceType": "MedicationRequest",
+    "id": "03573d45-f612-47ac-a840-e203f4e89e04",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-07T03:10:36.456-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "312961",
+          "display": "Simvastatin 20 MG Oral Tablet"
+        }
+      ],
+      "text": "Simvastatin 20 MG Oral Tablet"
+    },
+    "subject": {
+      "reference": "Patient/d4cdc6d2-f3f1-48c0-96d6-b64b68d79eb9"
+    },
+    "encounter": {
+      "reference": "Encounter/3bd4ef31-bed7-499b-ba0f-4821faa3267a"
+    },
+    "authoredOn": "2009-11-23T15:24:23+00:00",
+    "requester": {
+      "reference": "Practitioner/7cdcee56-a0c0-419c-98fd-a7ccc981f650"
+    }
+  }

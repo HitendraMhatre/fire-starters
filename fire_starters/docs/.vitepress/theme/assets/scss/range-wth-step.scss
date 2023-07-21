@@ -1,0 +1,49 @@
+.wrap {
+    margin: 16px 0 0 0;
+}
+#nlVal {
+	display:inline-block;
+}
+.slider {
+    position: relative;
+    width: 90%;
+    height: 10px;
+    background: #D0F0F3;
+    border-radius: 50px;
+    left: 4px;
+}
+
+.slider label {
+    position: absolute;
+    width: 20px;
+    text-align:left;
+    font-size: 13px;
+    margin: 6px 0 0 0;
+}
+
+.ui-slider-handle.ui-state-default.ui-corner-all {
+    position: relative;
+    display: block;
+    border-radius: 100%;
+    background: #44C2CF;
+    width: 20px;
+    height: 20px;
+    top: -5px;
+    margin-left: -8px;
+	cursor:grab;
+}
+
+.ui-slider-handle.ui-state-active,
+.ui-slider-handle.ui-state-hover,
+.ui-slider-handle.ui-state-focus {
+    border: none;
+    outline: 0;
+}
+
+.ui-slider-handle.ui-state-active:after {
+    content: none;
+}
+
+.ui-slider-handle.ui-state-active:before {
+    content: none;
+}

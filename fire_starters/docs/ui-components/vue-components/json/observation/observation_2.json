@@ -1,0 +1,50 @@
+{
+    "resourceType": "Observation",
+    "id": "9e905258-7c88-49d8-8135-9aa78b1f28e5",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-06T03:06:21.478-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "laboratory",
+            "display": "laboratory"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "2571-8",
+          "display": "Triglycerides"
+        }
+      ],
+      "text": "Triglycerides"
+    },
+    "subject": {
+      "reference": "Patient/389bac6b-5b19-43c2-90a6-79afa9ba59e7"
+    },
+    "encounter": {
+      "reference": "Encounter/9c0ceb80-6ddc-401c-b7b2-8f08bad54d77"
+    },
+    "effectiveDateTime": "2019-07-19T16:51:27+00:00",
+    "issued": "2019-07-19T16:51:27.953+00:00",
+    "valueQuantity": {
+      "value": 147.36416994310562,
+      "unit": "mg/dL",
+      "system": "http://unitsofmeasure.org",
+      "code": "mg/dL"
+    }
+  }

@@ -1,0 +1,36 @@
+{
+  "resourceType": "MedicationRequest",
+  "encounter": {
+    "reference": "Andrew Argonaut"
+  },
+  "subject": {
+    "reference": "Patient/ff567a66d87e69bfddf2c781",
+    "display": "Jason Argonaut"
+  },
+  "intent": "proposal",
+  "status": "active",
+  "requester": {
+    "reference": "Requester/ff567a66d87e69bfddf2c781",
+    "display": "Cersi Lannister"
+  },
+  "medicationCodeableConcept": {
+    "text": "Acetaminophen"
+  },
+  "reportedBoolean": true,
+  "reportedReference": {
+    "reference": "Requester/ff567a66d87e69bfddf2c781",
+    "display": "Jamie Lannister"
+  },
+  "dosageInstruction": [{ "text": "1 tab PO q6h PRN headache" }],
+  "authoredOn": "2022-01-17",
+  "category": [
+    {
+      "coding": [
+        {
+          "code": "inpatient"
+        }
+      ],
+      "text": "Inpatient"
+    }
+  ]
+}

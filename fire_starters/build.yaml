@@ -1,0 +1,24 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  name: fire-starters
+spec:
+  source:
+    git:
+      uri: https://github.com/HitendraMhatre/Deploy_FrontEnd.git
+    contextDir: .
+  strategy:
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+  output:
+    to:
+      kind: ImageStreamTag
+      name: fire-starters:latest
+  triggers:
+    - type: ConfigChange
+    - type: ImageChange
+      imageChange:
+        from:
+          kind: ImageStreamTag
+          name: fire-starters:latest
+  runPolicy: Serial

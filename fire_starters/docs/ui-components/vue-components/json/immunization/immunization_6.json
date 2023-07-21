@@ -1,0 +1,33 @@
+{
+    "resourceType": "Immunization",
+    "id": "bda2b58f-790f-4503-8adb-aef72d60b920",
+    "meta": {
+      "versionId": "3",
+      "lastUpdated": "2021-04-06T03:11:47.290-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "completed",
+    "vaccineCode": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "140",
+          "display": "Influenza, seasonal, injectable, preservative free"
+        }
+      ],
+      "text": "Influenza, seasonal, injectable, preservative free"
+    },
+    "patient": {
+      "reference": "Patient/689892bd-dcbe-41fc-8651-38a1d0893854"
+    },
+    "encounter": {
+      "reference": "Encounter/7531621d-f88d-4846-9ea6-dd4b8b156b99"
+    },
+    "occurrenceDateTime": "2019-12-09T04:51:58+00:00",
+    "primarySource": true
+  }

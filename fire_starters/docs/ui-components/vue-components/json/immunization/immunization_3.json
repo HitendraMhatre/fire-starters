@@ -1,0 +1,33 @@
+{
+    "resourceType": "Immunization",
+    "id": "c0c7e173-99c8-4659-ac9d-e79fe683d32a",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-07T03:02:20.207-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "completed",
+    "vaccineCode": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/sid/cvx",
+          "code": "08",
+          "display": "Hep B, adolescent or pediatric"
+        }
+      ],
+      "text": "Hep B, adolescent or pediatric"
+    },
+    "patient": {
+      "reference": "Patient/8a6f7e61-55dc-4dc3-bf12-b3531b690b05"
+    },
+    "encounter": {
+      "reference": "Encounter/dc43358b-b228-4411-a9bc-e554a61b6e8e"
+    },
+    "occurrenceDateTime": "2018-06-27T00:46:35+00:00",
+    "primarySource": true
+  }

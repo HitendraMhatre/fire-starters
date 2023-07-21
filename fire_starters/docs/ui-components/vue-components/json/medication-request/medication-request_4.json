@@ -1,0 +1,36 @@
+{
+    "resourceType": "MedicationRequest",
+    "id": "93a66433-61d4-4cd9-944e-754eeea04498",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-07T03:07:52.233-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "active",
+    "intent": "order",
+    "medicationCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+          "code": "1860480",
+          "display": "1 ML DOCEtaxel 20 MG/ML Injection"
+        }
+      ],
+      "text": "1 ML DOCEtaxel 20 MG/ML Injection"
+    },
+    "subject": {
+      "reference": "Patient/7099b4c5-6f47-4293-9690-f2afb23b9dd6"
+    },
+    "encounter": {
+      "reference": "Encounter/83f7499f-5e78-4a06-bf3e-531b2c13fff1"
+    },
+    "authoredOn": "2017-12-17T00:41:27+00:00",
+    "requester": {
+      "reference": "Practitioner/63003abb-3924-46df-a75a-0a1f42733189"
+    }
+  }

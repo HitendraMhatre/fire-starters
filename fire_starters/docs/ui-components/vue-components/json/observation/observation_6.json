@@ -1,0 +1,54 @@
+{
+    "resourceType": "Observation",
+    "id": "13081ea1-b8e0-41ae-bd8d-4936fee020ef",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-07T03:02:19.025-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "status": "final",
+    "category": [
+      {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+            "code": "survey",
+            "display": "survey"
+          }
+        ]
+      }
+    ],
+    "code": {
+      "coding": [
+        {
+          "system": "http://loinc.org",
+          "code": "72166-2",
+          "display": "Tobacco smoking status NHIS"
+        }
+      ],
+      "text": "Tobacco smoking status NHIS"
+    },
+    "subject": {
+      "reference": "Patient/f02ede18-83f8-4ac9-b9e3-c27754c10e8e"
+    },
+    "encounter": {
+      "reference": "Encounter/0e694654-ec08-4f1c-9976-bb135b878e76"
+    },
+    "effectiveDateTime": "2006-04-18T04:46:42+00:00",
+    "issued": "2006-04-18T04:46:42.372+00:00",
+    "valueCodeableConcept": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "266919005",
+          "display": "Never smoker"
+        }
+      ],
+      "text": "Never smoker"
+    }
+  }

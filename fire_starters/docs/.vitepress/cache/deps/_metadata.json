@@ -1,0 +1,53 @@
+{
+  "hash": "7ed675a8",
+  "browserHash": "ba393089",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "35ce414c",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../../node_modules/@vue/devtools-api/lib/esm/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "8abee9f5",
+      "needsInterop": false
+    },
+    "fire-starters": {
+      "src": "../../../../node_modules/fire-starters/dist/library.mjs",
+      "file": "fire-starters.js",
+      "fileHash": "90243ebb",
+      "needsInterop": false
+    },
+    "bootstrap/dist/js/bootstrap.js": {
+      "src": "../../../../node_modules/bootstrap/dist/js/bootstrap.js",
+      "file": "bootstrap_dist_js_bootstrap__js.js",
+      "fileHash": "f75f5063",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-H6UF333E": {
+      "file": "chunk-H6UF333E.js"
+    },
+    "chunk-V634PGSD": {
+      "file": "chunk-V634PGSD.js"
+    },
+    "html2canvas.esm-A6VP4V3A": {
+      "file": "html2canvas__esm-A6VP4V3A.js"
+    },
+    "purify.es-OZ5IFR64": {
+      "file": "purify__es-OZ5IFR64.js"
+    },
+    "index.es-L7RA6AB3": {
+      "file": "index__es-L7RA6AB3.js"
+    },
+    "chunk-HNBWJEJ2": {
+      "file": "chunk-HNBWJEJ2.js"
+    },
+    "chunk-NUTPE2YY": {
+      "file": "chunk-NUTPE2YY.js"
+    }
+  }
+}

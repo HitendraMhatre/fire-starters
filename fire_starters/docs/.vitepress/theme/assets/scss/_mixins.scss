@@ -1,0 +1,30 @@
+$superior-breakpoints: (
+  xs: '(min-width: 0) and (max-width: 575px)',
+ sm: '(min-width: 576px) and (max-width: 767px)',
+ md: '(min-width: 768px) and (max-width: 991px)',
+ lg: '(min-width: 992px) and (max-width: 1199px)',
+ xl: '(min-width: 1200px)',
+ lt-md: '(max-width: 767px)',
+ lt-lg: '(max-width: 991px)',
+ lt-xl: '(max-width: 1199px)',
+ gt-xs: '(min-width: 576px)',
+ gt-sm: '(min-width: 768px)',
+ gt-md: '(min-width: 992px)',
+ ) !default;
+
+ @mixin superior-breakpoint($breakpoint) {
+
+    $mediaQuery: map-get($superior-breakpoints, $breakpoint);
+
+    @if ($mediaQuery != null) {
+
+        @media #{$mediaQuery} {
+            @content;
+        }
+    } @else {
+
+        @media #{$breakpoint} {
+            @content
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "b93ce726-342d-4a1e-a6aa-f4080d6fb632",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-04-07T03:04:31.022-04:00",
+    "tag": [
+      {
+        "system": "https://smarthealthit.org/tags",
+        "code": "synthea-5-2019"
+      }
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "code": "316049",
+        "display": "Hydrochlorothiazide 25 MG"
+      }
+    ],
+    "text": "Hydrochlorothiazide 25 MG"
+  },
+  "subject": {
+    "reference": "Patient/58c580cc-9bc9-4569-a51a-76db00935627"
+  },
+  "encounter": {
+    "reference": "Encounter/8fa3bf1f-1402-4a0b-81b9-2af384aa026a"
+  },
+  "authoredOn": "1982-12-07T07:13:25+00:00",
+  "requester": {
+    "reference": "Practitioner/99111a26-5d57-480b-9af9-9bd645aa5e64"
+  },
+  "reasonReference": [
+    {
+      "reference": "Condition/128abc00-c036-4d9d-86d6-c732a0c8d1c5"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "resourceType": "AllergyIntolerance",
+  "id": "0bbb0fcd-52c4-4be1-ae90-0ed6d1f9f6c8",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-04-07T03:02:19.290-04:00",
+    "tag": [
+      {
+        "system": "https://smarthealthit.org/tags",
+        "code": "synthea-5-2019"
+      }
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+        "code": "active"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "type": "allergy",
+  "category": [
+    "food"
+  ],
+  "criticality": "low",
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "425525006",
+        "display": "Allergy to dairy product"
+      }
+    ],
+    "text": "Allergy to dairy product"
+  },
+  "patient": {
+    "reference": "Patient/272539c2-e516-4f16-8f47-573923bf9924"
+  },
+  "recordedDate": "2013-09-19T17:53:15+00:00"
+}

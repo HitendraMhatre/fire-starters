@@ -1,0 +1,49 @@
+{
+    "resourceType": "AllergyIntolerance",
+    "id": "5eee7de0-df18-458c-862f-41eae20be661",
+    "meta": {
+      "versionId": "4",
+      "lastUpdated": "2021-04-07T02:57:18.138-04:00",
+      "tag": [
+        {
+          "system": "https://smarthealthit.org/tags",
+          "code": "synthea-5-2019"
+        }
+      ]
+    },
+    "clinicalStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
+          "code": "active"
+        }
+      ]
+    },
+    "verificationStatus": {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+          "code": "confirmed"
+        }
+      ]
+    },
+    "type": "allergy",
+    "category": [
+      "food"
+    ],
+    "criticality": "low",
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "418689008",
+          "display": "Allergy to grass pollen"
+        }
+      ],
+      "text": "Allergy to grass pollen"
+    },
+    "patient": {
+      "reference": "Patient/18088fa5-2146-4737-a60d-cf1d30c7c6fa"
+    },
+    "recordedDate": "1921-02-27T02:39:21+00:00"
+  }

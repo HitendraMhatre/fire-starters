@@ -1,0 +1,49 @@
+{
+  "resourceType": "Condition",
+  "id": "95c77316-f823-462f-bbdb-20c04f52aee8",
+  "meta": {
+    "versionId": "4",
+    "lastUpdated": "2021-04-07T03:02:21.957-04:00",
+    "tag": [
+      {
+        "system": "https://smarthealthit.org/tags",
+        "code": "synthea-5-2019"
+      }
+    ]
+  },
+  "clinicalStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+        "code": "resolved"
+      }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+        "code": "confirmed"
+      }
+    ]
+  },
+  "code": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "44465007",
+        "display": "Sprain of ankle"
+      }
+    ],
+    "text": "Sprain of ankle"
+  },
+  "subject": {
+    "reference": "Patient/7e1885c2-cb03-4883-8ce3-2e62c39257f3"
+  },
+  "encounter": {
+    "reference": "Encounter/c91debd2-5058-432a-86b3-d205fe31fcaf"
+  },
+  "onsetDateTime": "2013-01-08T19:00:46+00:00",
+  "abatementDateTime": "2013-02-05T19:00:46+00:00",
+  "recordedDate": "2013-01-08T19:00:46+00:00"
+}
