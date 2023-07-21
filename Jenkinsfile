@@ -10,11 +10,11 @@ pipeline {
             }
         }
         stage('Deploy') {
-            steps {
-                sh 'oc delete all -l app=fire-starters'
-                sh 'oc new-app --image-stream=fire-starters:latest --name=fire-starters'
-                sh 'oc expose svc/fire-starters --port=5173'
-            }
+             steps {
+        sh 'oc delete all -l app=fire-starters'
+        sh 'oc new-app --image-stream=fire-starters:latest --name=fire-starters --allow-missing-imagestream-tags' // Add the --allow-missing-imagestream-tags option here
+        sh 'oc expose svc/fire-starters --port=5173'
+    }
         }
     }
 }
