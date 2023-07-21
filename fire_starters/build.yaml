@@ -5,7 +5,7 @@ metadata:
 spec:
   source:
     git:
-      uri: https://github.com/HitendraMhatre/Deploy_FrontEnd.git
+      uri: https://github.com/HitendraMhatre/fire-starters.git
     contextDir: .
   strategy:
     dockerStrategy:
