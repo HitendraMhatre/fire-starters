@@ -13,7 +13,7 @@ pipeline {
             steps {
                 sh 'oc delete all -l app=fire-starters'
                 sh 'oc new-app --image-stream=fire-starters --name=fire-starters'
-                sh 'oc expose svc/onestop-be --port=5173'
+                sh 'oc expose svc/fire-starters --port=5173'
             }
         }
     }
