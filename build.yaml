@@ -13,12 +13,12 @@ spec:
   output:
     to:
       kind: ImageStreamTag
-      name: fire-starters
+      name: fire-starters:latest
   triggers:
     - type: ConfigChange
     - type: ImageChange
       imageChange:
         from:
           kind: ImageStreamTag
-          name: fire-starters
+          name: fire-starters:latest
   runPolicy: Serial
